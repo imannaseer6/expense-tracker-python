@@ -1,0 +1,35 @@
+
+
+Project 2: Expense Tracker
+
+Goal:
+Create a Python script where users enter an expense amount such as 100, 50, 20. The program adds all the expenses together and displays the Total Spent.
+
+Key Skill:
+Math Operations & Accumulators
+
+Python Code:
+
+total = 0
+
+while True:
+    expense = float(input("Enter expense amount: "))
+
+    if expense == 0:
+        break
+
+    total = total + expense
+
+print("Total Spent =", total)
+
+Example:
+
+Enter expense amount: 100
+Enter expense amount: 50
+Enter expense amount: 20
+Enter expense amount: 0
+
+Total Spent = 170
+
+Why it matters:
+This project helps in understanding data processing and calculations in backend logic. 
